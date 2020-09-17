@@ -1,0 +1,1 @@
+let Array = ["Ja", "Moin", "zu", "viel", "drip", "slatt"]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="Eingabe" placeholder="Todo eingeben">
+        <button id="EingabeButton">Ok</button>
+        <div id="Output">
+
+        </div>
+        <script>
+            var myButtonhandler = function() {
+                var TodoElement = document.getElementById("Eingabe");
+                var Todo = TodoElement.value;
+                console.log(Todo);
+                document.getElementById("Output").innerText = Todo;
+            }
+
+            document.getElementById("EingabeButton").onclick = myButtonhandler;
+            // var myButtonhandler=function(){
+            // }
+            // var firstNameElement = document.getElementById("Eingabe");
+            // var firstName = firstNameElement.innerText;
+        </script>
+    </body>
+
+</html>
